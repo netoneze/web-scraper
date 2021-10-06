@@ -1,6 +1,9 @@
 const PORT = 6000
+//Usado para retornar o HTML da página
 const axios = require('axios')
+//Possibilita usar um jQuery mais limpo para fazer parse no HTML
 const cheerio = require('cheerio')
+//Web framework para node, será usado posteriormente
 const express = require('express')
 
 const app = express();
